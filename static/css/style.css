@@ -32,19 +32,19 @@ th{
     background-color: #000;
 }
 
-.container{
+.content{
     /* min-height: 100vh; */
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
-.container table{
+.content table{
     background-color: #fff;
     width:500px;
 }
 
-.container form{
+.content form{
     margin-top:10px;
     display: flex;
     flex-direction: column;
@@ -52,11 +52,11 @@ th{
     flex-wrap: wrap;
     align-items: center;
 }
-.container form input:first-child{
+.content form input:first-child{
     width:600px;
     height:50px;
 }
-.container form input:last-child{
+.content form input:last-child{
     border-style: none;
     background-color: rgb(62, 183, 253);
     margin-top: 10px;
